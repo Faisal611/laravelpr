@@ -12,7 +12,7 @@ class UsesrController extends Controller
         $data = [
             'name' => 'faa',
             'email' => 'faa@gmail.com',
-            'password' => '12345789'
+            'password' => '123457890'
         ];
         User::create($data);
         return 'creact successfully';
